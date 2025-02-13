@@ -1,0 +1,23 @@
+* {
+    font-family: 'Patrick Hand', cursive;
+}
+
+body {
+    background-color:#F9E0D9;
+    font-size:1.2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    margin: 0 auto;
+    padding: 7px;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+
+#clock {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For my baby</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="test2.css">
+  <style>
+    .carousel-container {
+        width: 300px; /* Square size */
+        height: 300px;
+        margin: auto;
+        overflow: hidden;
+        border-radius: 20px; /* Curved corners */
+    }
+    .carousel-inner img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; /* Ensures images fit properly */
+        border-radius: 20px; /* Apply curve to images too */
+    }
+    .music-container {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+    
+    /* Center the container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto; /* Adds top margin */
+}
+        .album-cover {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .song-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 10px;
+            font-family: Arial, sans-serif;
+            
+        }
+        .artist-name {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 15px;
+            font-family: Arial, sans-serif;
+        }
+        .play-btn {
+            border: none;
+            background: none;
+            cursor: pointer;
+            font-size: 30px;
+            color: black; /* Blue color */
+            display: flex; /* Add flexbox */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            margin: auto; /* Ensure proper centering */
+            width: fit-content;
+        }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="container mb-4 mt-5">
+          <div class="card">
+              <div class="card-body">
+                  <h3><b>Notice</b></h3>
+                  <p class="mt-4">
+                    Before you proceed to reading this letter, this song reminds me of you.
+                    Also, you can play this song while reading this letter. I hope you like it.
+                  </p>
+                  <div class="music-container mt-5">
+                    <img src="DIanne/image.png" class="album-cover" alt="Album Cover">
+                    <div class="song-title mt-2">PALAGI</div>
+                    <div class="artist-name">TJ Monterde</div>
+                    
+                    <audio id="audio" src="Palagi - TJ Monterde (Lyric Video) _ @dhorynmarimon [908773h7OAM].mp3"></audio>
+            
+                    <button class="play-btn" id="playPause">
+                        <i class="fas fa-play"></i> 
+                    </button>
+                </div>
+              </div>
+          </div>
+      </div>
+    
+      <div class="container">
+        <div class="container mb-4 mt-5">
+          <div class="card">
+              <div class="card-body">
+                <h3 class="mb-4"><b>My favorite pictures of yours</b></h3>
+                <div class="carousel-container">
+                    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="DIanne/476356489_2577890369076704_6365403330081176626_n.jpg" alt="Slide 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="DIanne/476817798_3783554558624110_8519855364906138928_n.jpg" alt="Slide 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="DIanne/475209255_1680580876214276_2170386019912400189_n.jpg" alt="Slide 3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="DIanne/474077234_607718822138200_2636598247534740376_n.jpg" alt="Slide 3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="DIanne/474439303_593772566913776_3779078474124989224_n.jpg" alt="Slide 3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+              </div>
+          </div>
+      </div>
+    
+    <div class="container">
+        <div class="container mb-4 mt-5">
+          <div class="card">
+              <div class="card-body">
+                  <h3><b>Letter</b></h3>
+                  <p class="mt-4">
+                    Happy Valentines Day baby! pano ko ba to sisimulan? 
+                    Sige ganito nalang. Umm first of all baby thankyou sa lahat 
+                    ng tulong especially sa pag tulong sakin like sa polarr po kahit 
+                    na minsan nakakahiya talaga tanggapin yung perang hindi ko naman 
+                    pinaghirapan kahit minsan nagagalit ka kapag hindi ko inaaccept yung 
+                    tulong na binibigay mo sakin and also thankyou sa pag bibigay sakin 
+                    ng moral support sa mga bagay na hindi ko na talaga kayang ihandle so 
+                    pasensya na ha kung always kong sinasabi yung mga ganong bagay pero hindi 
+                    ko naman minsan sinusunod yung mga sinasabi mo sakin pero thankful pa din ako na 
+                    kasama kita now. Pasensya na if wala akong maibibigay na katulad nung iba na bouquet 
+                    or what pero honestly gumawa ako nung hand made na ganon imean flowers ha pero for me 
+                    ang pangit niya nakakahiya ibigay sayo so hindi ko nalang pinagpatuloy huhu pero 
+                    anyway ayun po pasensya na ha kung hindi ko masyadong naibibigay or mag karoon 
+                    manlang ng effort ulit na gumawa non kahit na pangit yung kakalabasan. Ayaw ko 
+                    kasing mag bigay ng pangit as in ayaw ko huhu. Pero ayon thankyou ha kase always 
+                    na ginagabayan mo ako palagi tapos sa pang bbaby sakin kahit na nasa bahay 
+                    niyo ako ikaw nag sasandok ng food ko hehe ganon lase eh nasanay lang:> pero a
+                    yon sana maappreciate mo tong website na ginawa ko for you kase ganitong effort 
+                    lang kaya kong ibigay sayo pasensya na ha. Mahal na mahal kita and lastly anniversay  
+                    na sunod ha:)<br>
+                    <br>
+                    Nag mamamahal,<br>
+                    Samuel Obillo
+                  </p>
+                  <div class="tenor-gif-embed" data-postid="339397368183094769" data-share-method="host" data-aspect-ratio="1.14747" data-width="100%"><a href="https://tenor.com/view/aaa-bbb-gif-339397368183094769">Aaa Bbb GIF</a>from <a href="https://tenor.com/search/aaa-gifs">Aaa GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+              </div>
+          </div>
+      </div>
+
+      </div>
+
+      
+       
+      <audio autoplay loop hidden>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        let audio = document.getElementById("audio");
+        let playPause = document.getElementById("playPause");
+        let icon = playPause.querySelector("i");
+
+        playPause.addEventListener("click", () => {
+            if (audio.paused) {
+                audio.play();
+                icon.classList.remove("fa-play");
+                icon.classList.add("fa-pause");
+            } else {
+                audio.pause();
+                icon.classList.remove("fa-pause");
+                icon.classList.add("fa-play");
+            }
+        });
+    </script>
+</body>
+</html>
